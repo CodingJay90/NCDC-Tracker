@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>NCDC Tracker</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="form-container first-form">
+        <form class="form-input">
+            <label for="first-name">First Name:
+            <input type="text" id="first-name" class="first-name" required/>
+            </label>
+            <label for="last-name">Last Name:
+            <input type="text" id="last-name" class="last-name" required>
+            </label>
+            <label for="email">Email Address</address>:
+            <input type="text" id="email" class="email" required>
+            </label>
+            <label for="gender">Gender:
+                <select id="gender">
+                    <option>None</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </label >
+            <label for="checkbox" class="checkbox">
+            <input type="checkbox"  id="checkbox">
+            Recently came into
+            Nigeria within the last 14 days?
+            </label>
+            <input type="submit" class="submit-button">
+        </form>
+    </div>
+
+    <div class="form-container hide second-form">
+        <form class="form-input">
+            <label for="first-name">First Name:
+            <input type="text" id="first-name" class="s-first-name" required placeholder="New_First_Name"/>
+            </label>
+            <label for="last-name">Last Name:
+            <input type="text" id="last-name" class="s-last-name" required placeholder="New_Last_Name">
+            </label>
+            <label for="email">Email Address</address>:
+            <input type="text"  id="email" class="s-email" required placeholder="New_Email">
+            </label>
+            <label for="gender">Gender:
+                <select id="s-gender">
+                    <option>None</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </label >
+            <label for="checkbox" class="checkbox">
+            <input type="checkbox"  id="checkbox">
+            Recently came into
+            Nigeria within the last 14 days?
+            </label>
+            <button class="update-btn">Update</button>
+        </form>
+    </div>
+
+    <div class="result-container">
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Email Address</th>
+                <th>Gender</th>
+                <th>Came to Nigeria within the last 14 days?</th>
+                <th></th>
+                <th></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ada Lovelace</td>
+                    <td>a"b.com</td>
+                    <td>Male</td>
+                    <td><a href="£" class="checked">No</a></td>
+                    <td><button class="edit-btn" disable>Edit</button class="edit-btn"></td>
+                    <td><button>Delete</button></td>
+                </tr>
+                <tr>
+                    <td>Grace Hopper</td>
+                    <td>a"b.com</td>
+                    <td>Female</td>
+                    <td><a href="£" class="checked">Yes</a></td>
+                    <td><button class="edit-btn" disable>Edit</button></td>
+                    <td><button>Delete</button></td>
+                </tr>
+                <tr>
+                    <td>Magaret Hamilton</td>
+                    <td>a"b.com</td>
+                    <td>Female</td>
+                    <td><a href="£" class="checked">No</a></td>
+                    <td><button class="edit-btn" disable >Edit</button></td>
+                    <td><button class="delete-btn">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
