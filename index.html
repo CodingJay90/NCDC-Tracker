@@ -9,15 +9,15 @@
 </head>
 <body>
     <div class="form-container first-form">
-        <form class="form-input">
+        <form class="form-input second-form-input">
             <label for="first-name">First Name:
-            <input type="text" id="first-name" class="first-name" required/>
+            <input type="text"  class="first-name" required/>
             </label>
             <label for="last-name">Last Name:
-            <input type="text" id="last-name" class="last-name" required>
+            <input type="text"  class="last-name" required>
             </label>
-            <label for="email">Email Address</address>:
-            <input type="text" id="email" class="email" required>
+            <label for="email">Email Address:
+            <input type="text" class="email" required>
             </label>
             <label for="gender">Gender:
                 <select id="gender">
@@ -33,33 +33,13 @@
             </label>
             <input type="submit" class="submit-button">
         </form>
+<!--         
+        <input type="submit" class="submit-button-2"> -->
+        <button class="submit-button-2 hide">Update</button>
     </div>
 
     <div class="form-container hide second-form">
-        <form class="form-input">
-            <label for="first-name">First Name:
-            <input type="text" id="first-name" class="s-first-name" required placeholder="New_First_Name"/>
-            </label>
-            <label for="last-name">Last Name:
-            <input type="text" id="last-name" class="s-last-name" required placeholder="New_Last_Name">
-            </label>
-            <label for="email">Email Address</address>:
-            <input type="text"  id="email" class="s-email" required placeholder="New_Email">
-            </label>
-            <label for="gender">Gender:
-                <select id="s-gender">
-                    <option>None</option>
-                    <option>Male</option>
-                    <option>Female</option>
-                </select>
-            </label >
-            <label for="checkbox" class="checkbox">
-            <input type="checkbox"  id="checkbox">
-            Recently came into
-            Nigeria within the last 14 days?
-            </label>
-            <button class="update-btn">Update</button>
-        </form>
+        
     </div>
 
     <div class="result-container">
@@ -73,30 +53,30 @@
                 <th></th>
             </thead>
             <tbody>
-                <tr>
-                    <td>Ada Lovelace</td>
-                    <td>a"b.com</td>
+                <!-- <tr>
+                    <td class="name">Ada Lovelace</td>
+                    <td class="sEmail">ab.com</td>
                     <td>Male</td>
                     <td><a href="£" class="checked">No</a></td>
                     <td><button class="edit-btn" disable>Edit</button class="edit-btn"></td>
                     <td><button>Delete</button></td>
                 </tr>
                 <tr>
-                    <td>Grace Hopper</td>
-                    <td>a"b.com</td>
+                    <td class="name">Grace Hopper</td>
+                    <td class="sEmail">ab.com</td>
                     <td>Female</td>
                     <td><a href="£" class="checked">Yes</a></td>
                     <td><button class="edit-btn" disable>Edit</button></td>
                     <td><button>Delete</button></td>
                 </tr>
                 <tr>
-                    <td>Magaret Hamilton</td>
-                    <td>a"b.com</td>
-                    <td>Female</td>
+                    <td class="name">Magaret Hamilton</td>
+                    <td class="sEmail">ab.com</td>
+                    <td class="sGender">Female</td>
                     <td><a href="£" class="checked">No</a></td>
                     <td><button class="edit-btn" disable >Edit</button></td>
                     <td><button class="delete-btn">Delete</button></td>
-                </tr>
+                </tr> -->
             </tbody>
         </table>
     </div>
